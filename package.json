@@ -1,6 +1,6 @@
 {
-  "homepage": "https://hprono.github.io/deploy-mon-app.git",
-  "name": "rectify",
+  "homepage": "https://github.com/hprono/deploy-mon-app",
+  "name": "deploy-mon-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d"
   },
   "dependencies": {
     "firebase": "^9.10.0",
@@ -16,7 +16,8 @@
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
